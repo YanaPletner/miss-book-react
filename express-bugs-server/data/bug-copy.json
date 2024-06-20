@@ -1,23 +1,82 @@
 [
   {
-    "_id": "124",
-    "title": "Cannot save a new bug",
-    "description": "problem when clicking Save",
-    "severity": 3,
-    "createdAt": 1542107359454
+    "_id": "GwjbR",
+    "title": "Login Failure",
+    "description": "User unable to login",
+    "severity": 2,
+    "createdAt": 1718295576268,
+    "labels": ["critical", "need-CR"]
   },
   {
-    "_id": "125",
-    "title": "Cannot save a new bug",
-    "description": "problem when clicking Save",
-    "severity": 3,
-    "createdAt": 1542107359454
+    "_id": "QzjKm",
+    "title": "Page Load Error",
+    "description": "Main page fails to load",
+    "severity": 1,
+    "createdAt": 1718295576269,
+    "labels": ["high", "urgent"]
   },
   {
-    "_id": "126",
-    "title": "Cannot save a new bug",
-    "description": "problem when clicking Save",
+    "_id": "NvjRw",
+    "title": "Button Not Clickable",
+    "description": "Submit button not responding",
     "severity": 3,
-    "createdAt": 1542107359454
+    "createdAt": 1718295576270,
+    "labels": ["medium", "need-CR", "urgent"]
+  },
+  {
+    "_id": "JzkRt",
+    "title": "Form Validation Issue",
+    "description": "Form fields not validating correctly",
+    "severity": 2,
+    "createdAt": 1718295576271,
+    "labels": ["critical", "high"]
+  },
+  {
+    "_id": "MzjPf",
+    "title": "Database Connection Lost",
+    "description": "Intermittent loss of database connection",
+    "severity": 1,
+    "createdAt": 1718295576272,
+    "labels": ["urgent", "critical"]
+  },
+  {
+    "_id": "LkjQw",
+    "title": "CSS Styling Broken",
+    "description": "Styles not loading on homepage",
+    "severity": 4,
+    "createdAt": 1718295576273,
+    "labels": ["medium", "need-CR", "dev-branch"]
+  },
+  {
+    "_id": "WkjPl",
+    "title": "API Timeout",
+    "description": "API requests timing out",
+    "severity": 5,
+    "createdAt": 1718295576274,
+    "labels": ["high", "urgent"]
+  },
+  {
+    "_id": "PzlSk",
+    "title": "Memory Leak",
+    "description": "Memory usage continuously increases",
+    "severity": 1,
+    "createdAt": 1718295576275,
+    "labels": ["critical", "urgent"]
+  },
+  {
+    "_id": "XpjQl",
+    "title": "Image Upload Fails",
+    "description": "Unable to upload images",
+    "severity": 4,
+    "createdAt": 1718295576276,
+    "labels": ["medium", "need-CR"]
+  },
+  {
+    "_id": "YtkRe",
+    "title": "Search Function Broken",
+    "description": "Search returns incorrect results",
+    "severity": 2,
+    "createdAt": 1718295576277,
+    "labels": ["high", "critical"]
   }
 ]

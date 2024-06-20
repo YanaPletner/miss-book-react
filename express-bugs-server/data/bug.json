@@ -1,72 +1,66 @@
 [
   {
-    "_id": "124",
-    "description": "bug",
-    "title": "Cannot save a new bug",
-    "createdAt": 1542107359454,
-    "severity": 10
+    "title": "Popo",
+    "description": "wowowowo",
+    "severity": 2,
+    "createdAt": 1718898262220,
+    "labels": ["baba", "kiki"],
+    "_id": "Lfh9G"
   },
   {
-    "_id": "126",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1542107359454,
-    "severity": 4
+    "_id": "NvjRw",
+    "title": "Button Not Clickable",
+    "description": "Submit button not responding",
+    "severity": 3,
+    "createdAt": 1718295576270,
+    "labels": ["medium", "need-CR", "urgent"]
   },
   {
-    "_id": "undefined",
-    "description": "y",
-    "title": "y",
-    "createdAt": 1542107359454,
-    "severity": 5
+    "_id": "LkjQw",
+    "title": "CSS Styling Broken",
+    "description": "Styles not loading on homepage",
+    "severity": 4,
+    "createdAt": 1718295576273,
+    "labels": ["medium", "need-CR", "dev-branch"]
   },
   {
-    "_id": "uFE59",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718454321395,
-    "severity": 2
+    "_id": "MzjPf",
+    "title": "Database Connection Lost",
+    "description": "Intermittent loss of database connection",
+    "severity": 1,
+    "createdAt": 1718295576272,
+    "labels": ["urgent", "critical"]
   },
   {
-    "_id": "Am4rD",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718460196261,
-    "severity": 0
+    "_id": "JzkRt",
+    "title": "Form Validation Issue",
+    "description": "Form fields not validating correctly",
+    "severity": 2,
+    "createdAt": 1718295576271,
+    "labels": ["critical", "high"]
   },
   {
-    "_id": "CqjpI",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718460198964,
-    "severity": 5
+    "_id": "XpjQl",
+    "title": "Image Upload Fails",
+    "description": "Unable to upload images",
+    "severity": 4,
+    "createdAt": 1718295576276,
+    "labels": ["medium", "need-CR"]
   },
   {
-    "_id": "Nb4oW",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718460620263,
-    "severity": 5
+    "_id": "GwjbR",
+    "title": "Login Failure",
+    "description": "User unable to login",
+    "severity": 2,
+    "createdAt": 1718295576268,
+    "labels": ["critical", "need-CR"]
   },
   {
-    "_id": "1osMu",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718460625094,
-    "severity": 6
-  },
-  {
-    "_id": "oVGii",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718460713545,
-    "severity": 3
-  },
-  {
-    "_id": "VFDY2",
-    "description": "problem when clicking Save",
-    "title": "Cannot save a new bug",
-    "createdAt": 1718460715698,
-    "severity": 3
+    "_id": "PzlSk",
+    "title": "Memory Leak",
+    "description": "Memory usage continuously increases",
+    "severity": 1,
+    "createdAt": 1718295576275,
+    "labels": ["critical", "urgent"]
   }
 ]

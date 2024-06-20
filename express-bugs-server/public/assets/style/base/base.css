@@ -2,12 +2,13 @@
   box-sizing: border-box;
 }
 
-html {
-}
+html {}
 
 body {
   margin: 0;
   color: var(--gray3);
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 h1,
@@ -47,5 +48,5 @@ object {
 
 
 .about nav a {
-    margin-right: 10px;
+  margin-right: 10px;
 }

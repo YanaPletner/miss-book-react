@@ -1,7 +1,8 @@
 export const utilService = {
     makeId,
     makeLorem,
-    getRandomIntInclusive
+    getRandomIntInclusive,
+    debounce,
 }
 
 function makeId(length = 6) {
@@ -29,4 +30,17 @@ function getRandomIntInclusive(min, max) {
     min = Math.ceil(min)
     max = Math.floor(max)
     return Math.floor(Math.random() * (max - min + 1)) + min //The maximum is inclusive and the minimum is inclusive 
+}
+
+export function debounce(fn, wait) {
+    let timer
+    return function (...args) {
+        // clear any pre-existing timer
+        if (timer) clearTimeout(timer)
+
+        const context = this
+
+        // call the function if time expires
+        timer = setTimeout(() => fn.apply(context, args), wait)
+    }
 }

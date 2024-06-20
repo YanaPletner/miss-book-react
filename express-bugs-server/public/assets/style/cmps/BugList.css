@@ -1,9 +1,11 @@
 .bug-list {
-    padding: 15px 0 0;
+    /* padding: 15px 0 0; */
+    padding-block-start: 15px;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 15px;
+    font-size: 1.5rem;
 }
 
 .bug-list li {
