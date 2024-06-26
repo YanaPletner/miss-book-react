@@ -56,13 +56,21 @@ function remove(bugId) {
     return _saveBugsToFile()
 }
 
-function save(bugToSave) {
+function save(bugToSave, loggedinUser) {
     if (bugToSave._id) {
         const idx = bugs.findIndex(bug => bug._id === bugToSave._id)
+
+        if (!loggedinUser.isAdmin &&
+            bugToSave.creator._id !== loggedinUser._id) {
+            return Promise.reject('Not your car')
+        }
+
         bugs.splice(idx, 1, bugToSave)
+
     } else {
         bugToSave._id = utilService.makeId()
         bugToSave.createdAt = Date.now()
+        bugToSave.creator = loggedinUser
         bugs.unshift(bugToSave)
     }
     return _saveBugsToFile()

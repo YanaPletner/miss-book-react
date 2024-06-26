@@ -137,7 +137,7 @@ export function BugIndex() {
 
   // if (!bugs || !bugs.length) return <h1>no bugs today</h1>
   return (
-    <main>
+    <main className="main-container">
       <h3>Bugs App</h3>
       <main>
         <button onClick={onDownloadPdf}>Download PDF</button>

@@ -1,7 +1,7 @@
 .app-header {
     background-color: var(--clr1);
     color: var(--clr2bg-light);
-    
+
 }
 
 .header-container {
@@ -12,6 +12,7 @@
 
 .header-container h1 {
     flex-grow: 1;
+    justify-content: left;
 }
 
 .app-nav {

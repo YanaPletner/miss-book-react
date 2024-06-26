@@ -1,0 +1,13 @@
+.main-container {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin-block-start: 5rem;
+}
